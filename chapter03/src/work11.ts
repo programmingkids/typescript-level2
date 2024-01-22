@@ -1,6 +1,6 @@
 export {};
 
-// 抽象クラスが定義されています
+// 抽象クラス「Monster」が定義されています
 abstract class Monster {
   name: string;
   constructor(name: string) {
@@ -11,7 +11,7 @@ abstract class Monster {
 }
 
 // ここにクラスを定義します
-// 抽象クラスを継承した具象クラスを作成します
+// 抽象クラス「Monster」を継承した具象クラス「Dragon」を作成します
 class Dragon extends Monster {
   attack(): void {
     console.log(this.name + 'は炎で攻撃します');

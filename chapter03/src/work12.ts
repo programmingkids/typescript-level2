@@ -19,7 +19,7 @@ interface D extends C {
 }
 
 // ここにクラスを定義します
-// インターフェースを実装した具象クラスを作成します
+// インターフェースを実装した具象クラス「Person」を作成します
 class Person implements C {
   name: string;
   hobby: string;
