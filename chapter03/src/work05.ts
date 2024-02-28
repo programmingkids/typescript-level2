@@ -1,14 +1,15 @@
 export {};
 
-// インタフェースの定義
+// インターフェースの定義
 interface Person {
   name: string;
   create(): void;
 }
 
-// インタフェースの実装クラス
+// インターフェースの実装クラス
 class Programmer implements Person {
   name: string;
+
   constructor(name: string) {
     this.name = name;
   }
@@ -19,7 +20,7 @@ class Programmer implements Person {
   }
 }
 
-// インタフェースの実装クラス
+// インターフェースの実装クラス
 class Carpenter implements Person {
   name: string;
 

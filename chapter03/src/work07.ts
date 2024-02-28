@@ -14,12 +14,15 @@ interface Student extends Person {
 // インターフェースの実装クラス
 class HighSchoolStudent implements Student {
   name: string;
+
   constructor(name: string) {
     this.name = name;
   }
+
   think(): void {
     console.log(this.name + 'は勉強します');
   }
+
   study(): void {
     console.log(this.name + 'は受験勉強を頑張ります');
   }

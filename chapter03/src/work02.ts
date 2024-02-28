@@ -27,7 +27,7 @@ abstract class Robot {
   abstract jump(): void;
 }
 
-// 抽象クラスを継承したクラス
+// 抽象クラスを継承した具象クラス
 class SuperRobot extends Robot {
   // 具象メソッド
   speak(): void {

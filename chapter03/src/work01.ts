@@ -19,7 +19,7 @@ abstract class Animal {
   abstract cry(): void;
 }
 
-// 抽象クラスを継承したクラス
+// 抽象クラスを継承した具象クラス
 class Dog extends Animal {
   // 具象メソッド
   cry(): void {

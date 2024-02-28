@@ -3,6 +3,7 @@ export {};
 // 抽象クラス「Monster」が定義されています
 abstract class Monster {
   name: string;
+
   constructor(name: string) {
     this.name = name;
   }
