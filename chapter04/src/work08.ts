@@ -1,6 +1,6 @@
 export {};
 
-// ジェネリックではないクラス
+// ジェネリクスではないクラス
 class MyContainer {
   // ジェネリクスを利用したスタティックメソッド
   // 第1引数はT型の配列
@@ -13,7 +13,7 @@ class MyContainer {
 }
 
 const fruits: string[] = ['apple', 'orange'];
-// ジェネリックスのスタティックメソッドの呼び出し、ジェネリクスはstring
+// ジェネリクスのスタティックメソッドの呼び出し、ジェネリクスはstring
 const result = MyContainer.add<string>(fruits, 'banana', 'peach', 'melon');
 // 戻り値はstring[]
 console.log(result); // [ 'apple', 'orange', 'banana', 'peach', 'melon' ]

@@ -1,9 +1,7 @@
 export {};
 
-export {};
-
 // valueをrepeat回数繰り返した配列を返す
-// T型の値を受け取り、repeat回数繰り返した配列を返す
+// T型のvalueを受け取り、repeat回数繰り返した配列を返す
 // 戻り値の型はT型の配列
 function multipleArray<T>(value: T, repeat: number): T[] {
   // T型の空の配列の定義

@@ -2,7 +2,7 @@ export {};
 
 // 3個のジェネリクスを受け取る関数
 // [T,S,U]のタプルを作成して返す関数
-// 戻り値の型はタプルであり、[T,S,U]
+// 戻り値の型はタプルの　[T,S,U]
 function createTuple<T, S, U>(value1: T, value2: S, value3: U): [T, S, U] {
   const tuple: [T, S, U] = [value1, value2, value3];
   return tuple;
