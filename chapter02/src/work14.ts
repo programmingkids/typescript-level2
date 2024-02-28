@@ -1,28 +1,23 @@
 export {};
 
-// Singerクラスの定義
-class Singer {
-  public name: string;
-
-  constructor(name: string) {
+class Person {
+  // コンストラクタとフィールドの同時宣言
+  constructor(
+    public name: string,
+    protected age: number,
+    private hobby: string,
+  ) {
     this.name = name;
+    this.age = age;
+    this.hobby = hobby;
   }
 
-  public sing(): void {
-    console.log(this.name + 'は歌を歌います');
-  }
-}
-
-// ここにクラスを定義します
-class Idol extends Singer {
-  public dance(): void {
-    this.sing();
-    console.log(this.name + 'は楽しく踊りながら歌います');
+  public show(): void {
+    console.log('I am ' + this.name);
+    console.log('I am ' + this.age + ' years old');
+    console.log('My hobby is ' + this.hobby);
   }
 }
 
-// クラス作成後、以下のコメントを外します。以下のプログラムは修正しません
-/*
-const nogizaka: Idol = new Idol('乃木坂');
-nogizaka.dance();
-*/
+const p: Person = new Person('Tom', 15, 'Piano');
+p.show();
