@@ -6,7 +6,7 @@ type Person = {
   lastName: string;
 };
 
-// ジェネリックスでPersonを指定
+// ジェネリクスでPersonを指定
 // Personの全プロパティがオプションになる
 type PartialPerson = Partial<Person>;
 

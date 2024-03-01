@@ -1,6 +1,6 @@
 export {};
 
-// string型を保持する
+// string型を保持するSet
 const nations = new Set<string>(['Japan', 'France', 'Spain']);
 console.log(nations);
 
