@@ -6,13 +6,7 @@ type Point3D = {
   z: number;
 };
 
-class Cube {
-  show(point: Point3D): void {
-    console.log('X: ' + point.x);
-    console.log('Y: ' + point.y);
-    console.log('Z: ' + point.z);
-  }
-}
+class Cube {}
 
 const p: Point3D = {
   x: 5,
@@ -21,4 +15,3 @@ const p: Point3D = {
 };
 
 const c: Cube = new Cube();
-c.show(p);

@@ -10,13 +10,4 @@ class Player {
     this.job = job;
     this.level = level;
   }
-
-  show(): void {
-    console.log('Name  : ' + this.name);
-    console.log('Job   : ' + this.job);
-    console.log('Level : ' + this.level);
-  }
 }
-
-const p: Player = new Player('Elsa', 'Magician', 5);
-p.show();

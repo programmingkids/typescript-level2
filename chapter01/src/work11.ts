@@ -4,7 +4,6 @@ class Player {
   name: string;
   level: number;
   job: string;
-  static readonly partyName: string = '勇者パーティ';
 
   constructor(name: string, level: number, job: string) {
     this.name = name;
@@ -16,7 +15,6 @@ class Player {
     console.log('Name  : ' + this.name);
     console.log('Level : ' + this.level);
     console.log('Job   : ' + this.job);
-    console.log('Party : ' + Player.partyName);
   }
 }
 
