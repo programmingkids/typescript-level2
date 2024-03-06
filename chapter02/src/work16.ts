@@ -14,14 +14,9 @@ class Car {
 }
 
 // ここにクラスを定義します
-class ElectricCar extends Car {
-  move(): void {
-    console.log('電気で動きます');
-  }
-}
 
 // クラス作成後、以下のコメントを外します。以下のプログラムは修正しません
 /*
-const e: ElectricCar = new Car('テスラ');
+const e: ElectricCar = new ElectricCar('テスラ');
 e.move();
 */

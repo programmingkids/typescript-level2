@@ -18,16 +18,10 @@ class Animal {
 
 class Dog extends Animal {
   // オーバーライドする
-  public cry(): void {
-    console.log('ワンワンとなく');
-  }
 }
 
 class Cat extends Animal {
   // オーバーライドする
-  public cry(): void {
-    console.log('ニャアニャアとなく');
-  }
 }
 
 const pochi: Dog = new Dog('ポチ');

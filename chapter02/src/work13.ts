@@ -8,7 +8,4 @@ class Parent {
 
 class Child extends Parent {
   // エラー　アクセス制限が厳しくなる場合、オーバーライドできない
-  // protected methodA(param: string): number {
-  //   return param.repeat(2).length;
-  // }
 }

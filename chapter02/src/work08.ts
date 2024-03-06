@@ -1,23 +1,9 @@
 export {};
 
-class A {
-  constructor() {
-    console.log('クラスAのコンストラクタ');
-  }
-}
+class A {}
 
-class B extends A {
-  constructor() {
-    super();
-    console.log('クラスBのコンストラクタ');
-  }
-}
+class B extends A {}
 
-class C extends B {
-  constructor() {
-    super();
-    console.log('クラスCのコンストラクタ');
-  }
-}
+class C extends B {}
 
 const c: C = new C();

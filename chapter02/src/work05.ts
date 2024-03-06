@@ -16,22 +16,9 @@ class Character {
 }
 
 // 子クラス
-class Hero extends Character {
-  public weapon: string = '勇者の剣';
-
-  public specialAttack(): void {
-    console.log(this.name + 'は' + this.weapon + 'で攻撃した');
-  }
-}
 
 // 親クラスのインスタンス作成
-const c: Character = new Character();
-c.show();
-c.attack();
 
 console.log('=====');
 
 // 子クラスのインスタンス作成
-const h: Hero = new Hero();
-h.show();
-h.specialAttack();

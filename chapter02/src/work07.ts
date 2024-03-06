@@ -10,14 +10,8 @@ class Parent {
   }
 
   // 継承される　クラスの内側からのみ呼び出し可能
-  protected show2(): void {
-    console.log(this.param);
-  }
 
   // 継承されない クラスの内側からのみ呼び出し可能
-  private show3(): void {
-    console.log(this.param);
-  }
 }
 
 class Child extends Parent {}

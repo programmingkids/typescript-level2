@@ -14,12 +14,6 @@ class Singer {
 }
 
 // ここにクラスを定義します
-class Idol extends Singer {
-  public dance(): void {
-    this.sing();
-    console.log(this.name + 'は楽しく踊りながら歌います');
-  }
-}
 
 // クラス作成後、以下のコメントを外します。以下のプログラムは修正しません
 /*
