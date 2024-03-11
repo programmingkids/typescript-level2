@@ -28,21 +28,6 @@ class Muscian extends Person {
   }
 }
 
-class MyPerson<T extends Person> {
-  person: T;
-
-  constructor(person: T) {
-    this.person = person;
-  }
-}
-
-const m: Muscian = new Muscian('Elsa', 17, 'piano');
-const mp: MyPerson<Muscian> = new MyPerson<Muscian>(m);
-mp.person.show();
-mp.person.play();
-
-class User {}
-
 // エラー
 // Personを継承していないクラスはジェネリクスに利用できない
 // const u: User = new User();
