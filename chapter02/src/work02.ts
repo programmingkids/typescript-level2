@@ -14,7 +14,7 @@ class Hero {
   // クラスの内外から呼び出し可能
   public show(): void {
     console.log('NAME  :' + this.name);
-    console.log('LELVEL:' + this.level);
+    console.log('LEVEL:' + this.level);
     console.log('ATTACK:' + this.attack);
   }
 }
